@@ -1,0 +1,41 @@
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 18px;
+    color: #eeeeee;
+  }
+
+.containerBuscador {
+    display: flex;
+    justify-content: center;
+    background-color: #ffe600;
+    padding: 5px;
+}
+.logo{
+    max-width: 40px;
+    margin: 5px 15px 0 0;
+}
+.containerInput {
+    display: flex;
+    width: 963px;
+}
+
+.inpuText {
+    border: 0px solid;
+    border-right: none;
+    padding: 7px;
+    border-radius: 1px 0 0 1px;
+    outline: none;
+    width: 100%;
+    max-width: 1020px;
+}
+
+.searchButton {
+    border: 2px solid #eeeeee;
+    background: #eeeeee;
+    text-align: center;
+    color: #666;
+    border-radius: 0 1px 1px 0;
+    cursor: pointer;
+    padding: 5px;
+    width: 45px;
+}
+

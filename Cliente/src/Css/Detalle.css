@@ -1,0 +1,147 @@
+.detailContainer{
+    max-width: 1018px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+
+.containerImgMobile {
+    display: none;
+}
+
+.containerImgDesktop{
+    display: block;
+}
+
+.containerAside {
+    display: flex;
+}
+
+.pruductoImgDesktop{
+    display: block;
+    margin: 0 auto;
+    width: 590px;
+}
+
+.containerPriceMobile {
+    display: none;
+}
+
+.title-producto {
+    padding-bottom: 0;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.price-desktop {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.decimals {
+    vertical-align: super;
+    font-size: 15px;
+}
+
+.btn-comprar {
+    background-color: #3483FA;
+    padding: 1em;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #3483FA;
+    color: #fff;
+    max-width: 270px;
+}
+
+.title-description {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    padding: 0 0.7em;
+ }
+
+ .text-description {
+    font-weight: 400;
+    font-size: 16px;
+    word-break: break-word;
+    color: #666;
+    max-width: 560px;
+    padding: 0 1em;
+ }
+
+ .cotainerDescriptionProduct {
+     margin-left: 1em;
+ }
+
+ .containerBreadcrumb {
+    max-width: 1018px;
+    margin: 0 auto;
+}
+
+@media (max-width: 805px) {
+.containerImgDesktop{
+    display: none;
+}
+
+.containerImgMobile {
+    display: block;
+}
+.containerContent {
+    padding:1em;
+}
+.pruductoImgMobile{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.title-producto {
+    padding-bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: inherit;
+}
+
+.btn-comprar {
+    background-color: #3483FA;
+    padding: 1em;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #3483FA;
+    color: #fff;
+    max-width: inherit;
+}
+
+.cotainerDescriptionProduct {
+    margin-left: 0em;
+}
+
+.containerPriceDesktop {
+    display: none;
+}
+
+.containerPriceMobile {
+    display: block;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.containerPriceMobile p {
+    margin: 10px 0;
+ }
+
+ .title-description {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    padding: inherit;
+ }
+
+ .text-description {
+    font-weight: 400;
+    font-size: 16px;
+    word-break: break-word;
+    color: #666;
+    padding: inherit;
+ }
+}

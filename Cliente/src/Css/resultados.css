@@ -1,0 +1,28 @@
+.containerResultado {
+    display: flex;
+    justify-content: center;
+}
+.resultado {
+    background-color: #fff;
+    max-width: 1018px;
+    justify-content: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.container-breadcrumb {
+    display: flex;
+    justify-content: center;
+}
+
+.bradcrumb {
+    display: flex;
+    max-width: 1018px;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.bradcrumb p {
+    padding-right: 5px;
+    color: #666;
+}
